@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="division_si_do">
+        <item>서울</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>부산</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>제주도</item>
+    </string-array>
+
+    <string-array name="seoul">
+        <item>전체</item>
+        <item>강남구</item>
+        <item>강동구</item>
+        <item>강북구</item>
+        <item>강서구</item>
+        <item>관악구</item>
+        <item>광진구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>노원구</item>
+        <item>도봉구</item>
+        <item>동대문구</item>
+        <item>동작구</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>서초구</item>
+        <item>성동구</item>
+        <item>성북구</item>
+        <item>송파구</item>
+        <item>양천구</item>
+        <item>영등포구</item>
+        <item>용산구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중구</item>
+        <item>중랑구</item>
+    </string-array>
+    <string-array name="incheon"></string-array>
+    <string-array name="daejeon"></string-array>
+    <string-array name="gwangju"></string-array>
+    <string-array name="daegu"></string-array>
+    <string-array name="ulsan"></string-array>
+    <string-array name="sejong"></string-array>
+    <string-array name="busan"></string-array>
+    <string-array name="gyeonggi_do"></string-array>
+    <string-array name="gangwon_do"></string-array>
+    <string-array name="chungcheongbuk_do"></string-array>
+    <string-array name="chungcheongnam_do"></string-array>
+    <string-array name="jeollabuk_do"></string-array>
+    <string-array name="jeollanam_do"></string-array>
+    <string-array name="gyeongsangbuk_do"></string-array>
+    <string-array name="gyeongsangnam_do"></string-array>
+    <string-array name="jeju_do"></string-array>
+
+
+
+
+
+
+</resources>

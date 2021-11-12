@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:toolsNs="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="?attr/dialogTheme">
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        toolsNs:text="장소명"
+        toolsNs:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/starRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        toolsNs:text="n/5"
+        toolsNs:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        toolsNs:text="oo시 oo구 ~~"
+        toolsNs:textSize="16dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        toolsNs:text="리뷰 보기"
+        android:textSize="18sp"
+        android:gravity="end"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        />
+</LinearLayout>
