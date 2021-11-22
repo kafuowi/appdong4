@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90401861711",
+    "project_id": "tourspot-60297",
+    "storage_bucket": "tourspot-60297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90401861711:android:4c818d3903bb05a8ce3a3a",
+        "android_client_info": {
+          "package_name": "com.example.tourspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90401861711-5vlmdjk69qeo8d0eq2a9rk077ipojhb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_792q50E3YdqNRmLrpeOxXJI9RA1IVtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90401861711-5vlmdjk69qeo8d0eq2a9rk077ipojhb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
