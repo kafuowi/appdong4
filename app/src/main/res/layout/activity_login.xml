@@ -62,12 +62,13 @@
         android:layout_marginRight="15dp"
         android:background="@android:color/transparent"
         android:hint="비밀번호"
-        android:inputType="textMultiLine"
+        android:inputType="textPassword"
         android:singleLine="false"
         android:textColor="#000000"
         android:textSize="14sp">
 
     </EditText>
+
 
     <View
         android:layout_width="match_parent"

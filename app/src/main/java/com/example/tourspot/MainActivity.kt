@@ -1,6 +1,7 @@
 package com.example.tourspot
 
 import android.app.Dialog
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.Point
 import android.graphics.drawable.ColorDrawable
@@ -15,6 +16,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
@@ -22,11 +26,15 @@ class MainActivity : AppCompatActivity() {
     private val fragmentManager: FragmentManager = supportFragmentManager
     lateinit var searchDialog:Dialog
     var homeOrDashboard:Int = 0
+
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         replaceFragment(HomeFragment())
+
+
+
 
         /* tool bar */
         toolbar = findViewById(R.id.include) // 툴바 생성
@@ -57,6 +65,17 @@ class MainActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener false
                 }
             }
+        }
+    }
+
+    public override fun onStart() {
+        super.onStart()
+        auth = Firebase.auth
+        // Check if user is signed in (non-null) and update UI accordingly.
+        val currentUser = auth.currentUser
+        if(currentUser == null){
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
         }
     }
 
